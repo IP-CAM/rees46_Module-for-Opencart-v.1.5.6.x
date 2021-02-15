@@ -1,23 +1,23 @@
-"Модуль" REES46 для OpenCart
+"Module" REES46 for OpenCart
 ======
-Инициализация
+Initialization
 ------
-Установить код `catalog/view/theme/НАЗВАНИЕ_ТЕМЫ/template/common/footer.tpl` перед `</body>`.
+Set the code `catalog / view / theme / THEME_NAME / template / common / footer.tpl` before` </body> `.
 
-Не забыть вставить в двух местах код магазина.
+Don't forget to insert the store code in two places.
 
-Трекинг
+Tracking
 ------
-Установить код `catalog/view/theme/НАЗВАНИЕ_ТЕМЫ/template/product/product.tpl` перед `<?php echo $footer; ?>`.
+Set code `catalog / view / theme / THEME_NAME / template / product / product.tpl` before` <? Php echo $ footer; ?> `.
 
-Вставить код из `catalog/controller/checkout/success.php` перед `$this->cart->clear();`.
+Paste the code from `catalog / controller / checkout / success.php` before` $ this-> cart-> clear (); `.
 
-Установить код `catalog/view/theme/НАЗВАНИЕ_ТЕМЫ/template/product/category.tpl` перед `<?php echo $footer; ?>`.
+Set code `catalog / view / theme / THEME_NAME / template / product / category.tpl` before` <? Php echo $ footer; ?> `.
 
-Рекомендации
+Recommendations
 ------
-Создать файл с с содержимым `catalog/controller/common/rees46_recommend.php`.
+Create a file with the content `catalog / controller / common / rees46_recommend.php`.
 
-Далее можно вставлять рекомендеры в нужные шаблоны, в нужных местах.
+Then, you can insert the recommenders into the necessary templates, in the right places.
 
-`<div class="rees46 rees46-recommend" data-type="see_also" data-limit="4" data-tile="Не забудьте также"></div>`
+`<div class =" rees46 rees46-recommend "data-type =" see_also "data-limit =" 4 "data-tile =" Don't forget also "> </div>` 
